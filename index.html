@@ -6,7 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Customer management system</h1>
+
+    <input type="text" placeholder="id" id ="txtcustomerid">
+    <input type="text" placeholder="name"id ="txtcustomername">
+    <input type="text" placeholder="age" id ="txtcustomerage">
+    <input type="text" placeholder="address" id ="txtcustomeraddress">
+
+    <hr>
+
+    <input type="button" value="add customer"onclick ="btnAddCustomerOnAction()">
+    <input type="button" value="search by ID" onclick="btnSearchByIdOnAction()">
+    <input type="button" value="delete by ID" onclick="btnDeleteByIdOnAction()">
+    <input type="button" value="update by ID" onclick="btnUpdateByIdOnAction()">
+    <input type="button" value="clear storage" onclick="btnClearStorageOnAction()">
+    <input type="button" value="load table" onclick="btnLoadTableOnAction()">
 
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="app.js"></script>
