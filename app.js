@@ -128,7 +128,12 @@ function btnLoadTableOnAction(){
     
     let customerList = JSON.parse(localStorage.getItem("customerList"));
 
-    let body = ""
+    let body = `        <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>age</th>
+            <th>address</th>
+        </tr>`
 
     customerList.forEach(element => {
         body +=`
